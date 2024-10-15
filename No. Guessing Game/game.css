@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka", system-ui;
+}
+
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.497);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.main{
+    height: 85%;
+    width: 35%;
+    margin-top: 3%;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+.main #head{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.734);
+    text-transform: uppercase;
+    margin: 0px 5px 0px     ;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px;
+}
+.main #second{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    color: blue;
+}
+.main #textarea{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    width:40% ;
+    height: 10%;
+    /* align-self: center; */
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: 500;
+    resize: none;
+    text-transform: uppercase;
+    -webkit-box-shadow: 10px 10px 31px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 31px -3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 31px -3px rgba(0,0,0,0.75);
+}
+.main #btn{
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    align-content: center;
+    margin-top: 30%;  
+    width:30% ;
+    height: 10%;
+    background-color: blue;
+    /* align-self: center; */
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    -webkit-box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+}
+ .guess{
+   position: absolute;
+   top: 66%;
+   left: 55%;
+   transform: translate(-60%, -50%);
+    background-color: #cc3c3cc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+    width: 50%;
+    padding: 2%;
+    border-radius: 4px;
+    font-size: 20px;
+    -webkit-box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 8px 17px 0px rgba(0,0,0,0.75);
+
+}
+.main #last{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main #last #emoji{
+    font-size: 20px;
+}
